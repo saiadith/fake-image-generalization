@@ -1,0 +1,234 @@
+{
+  "generators": [
+    "adm",
+    "biggan",
+    "glide",
+    "midjourney",
+    "sdv5",
+    "vqdm",
+    "wukong"
+  ],
+  "n": {
+    "train": 14000,
+    "test": 7000
+  },
+  "ext_by_label": {
+    ".jpeg": {
+      "0": 10500,
+      "1": 0
+    },
+    ".png": {
+      "0": 0,
+      "1": 10500
+    }
+  },
+  "E1_shortcut": {
+    "clip|train=raw|test=raw": {
+      "auroc": 0.9954631836734694,
+      "ap": 0.995257978993709,
+      "acc": 0.968,
+      "ece": 0.007153899056570844
+    },
+    "clip|train=raw|test=jpeg95": {
+      "auroc": 0.9496960000000001,
+      "ap": 0.9502320597819662,
+      "acc": 0.8382857142857143,
+      "ece": 0.11729532699925563
+    },
+    "clip|train=jpeg95|test=raw": {
+      "auroc": 0.9841773877551019,
+      "ap": 0.9836846889147317,
+      "acc": 0.9191428571428572,
+      "ece": 0.06301792191607611
+    },
+    "clip|train=jpeg95|test=jpeg95": {
+      "auroc": 0.9902976326530611,
+      "ap": 0.9893531958503374,
+      "acc": 0.9501428571428572,
+      "ece": 0.006771606104714544
+    },
+    "dino|train=raw|test=raw": {
+      "auroc": 0.9184324489795918,
+      "ap": 0.920248580414628,
+      "acc": 0.8405714285714285,
+      "ece": 0.009989712766238626
+    },
+    "dino|train=raw|test=jpeg95": {
+      "auroc": 0.9022778775510204,
+      "ap": 0.9038591857297671,
+      "acc": 0.8194285714285714,
+      "ece": 0.014391730572496136
+    },
+    "dino|train=jpeg95|test=raw": {
+      "auroc": 0.9187983265306123,
+      "ap": 0.9194095296145296,
+      "acc": 0.835,
+      "ece": 0.04479538094145913
+    },
+    "dino|train=jpeg95|test=jpeg95": {
+      "auroc": 0.9139577959183672,
+      "ap": 0.9143849978261485,
+      "acc": 0.8324285714285714,
+      "ece": 0.01444591772556306
+    },
+    "spec|train=raw|test=raw": {
+      "auroc": 0.9086312653061225,
+      "ap": 0.8790617517569871,
+      "acc": 0.8344285714285714,
+      "ece": 0.0633635761993272
+    },
+    "spec|train=raw|test=jpeg95": {
+      "auroc": 0.9011325714285714,
+      "ap": 0.8648363047416756,
+      "acc": 0.8284285714285714,
+      "ece": 0.07253405897957936
+    },
+    "spec|train=jpeg95|test=raw": {
+      "auroc": 0.9108302040816326,
+      "ap": 0.8787852588348953,
+      "acc": 0.838,
+      "ece": 0.06349446645804813
+    },
+    "spec|train=jpeg95|test=jpeg95": {
+      "auroc": 0.9107670204081634,
+      "ap": 0.87247262329958,
+      "acc": 0.8422857142857143,
+      "ece": 0.08252841331277576
+    }
+  },
+  "ours_train_views": [
+    "jpeg95",
+    "raw",
+    "jpeg75",
+    "jpeg50",
+    "resize50",
+    "blur"
+  ],
+  "E2_logo_mean": {
+    "auroc": {
+      "all": 0.9851,
+      "clip": 0.9811,
+      "clip+dino": 0.9822,
+      "dino": 0.8724,
+      "ours": 0.9646,
+      "spec": 0.8677
+    },
+    "acc": {
+      "all": 0.9301,
+      "clip": 0.925,
+      "clip+dino": 0.9216,
+      "dino": 0.7834,
+      "ours": 0.8926,
+      "spec": 0.7766
+    },
+    "ece": {
+      "all": 0.0425,
+      "clip": 0.0434,
+      "clip+dino": 0.0471,
+      "dino": 0.0634,
+      "ours": 0.0602,
+      "spec": 0.1128
+    },
+    "in_dist_auroc": {
+      "all": 0.9927,
+      "clip": 0.9904,
+      "clip+dino": 0.9905,
+      "dino": 0.9126,
+      "ours": 0.9829,
+      "spec": 0.9124
+    }
+  },
+  "E3_robustness_auroc": {
+    "blur": {
+      "all": 0.7708,
+      "clip": 0.7607,
+      "clip+dino": 0.7864,
+      "dino": 0.8218,
+      "ours": 0.9038,
+      "spec": 0.375
+    },
+    "jpeg50": {
+      "all": 0.8038,
+      "clip": 0.7098,
+      "clip+dino": 0.7912,
+      "dino": 0.81,
+      "ours": 0.924,
+      "spec": 0.8068
+    },
+    "jpeg75": {
+      "all": 0.9421,
+      "clip": 0.9138,
+      "clip+dino": 0.9341,
+      "dino": 0.8277,
+      "ours": 0.9566,
+      "spec": 0.8405
+    },
+    "jpeg95": {
+      "all": 0.9851,
+      "clip": 0.9811,
+      "clip+dino": 0.9822,
+      "dino": 0.8724,
+      "ours": 0.9646,
+      "spec": 0.8677
+    },
+    "resize50": {
+      "all": 0.8686,
+      "clip": 0.8487,
+      "clip+dino": 0.8568,
+      "dino": 0.7907,
+      "ours": 0.9374,
+      "spec": 0.709
+    }
+  },
+  "E4_abstention": {
+    "adm": {
+      "ood_auroc_new_vs_seen": 0.5971981666666667,
+      "abstain_rate_seen": 0.041166666666666664,
+      "abstain_rate_new": 0.046,
+      "acc_all": 0.9192857142857143,
+      "acc_kept": 0.9187416132398986
+    },
+    "biggan": {
+      "ood_auroc_new_vs_seen": 0.6146655000000001,
+      "abstain_rate_seen": 0.0355,
+      "abstain_rate_new": 0.05,
+      "acc_all": 0.9375714285714286,
+      "acc_kept": 0.9375092771263174
+    },
+    "glide": {
+      "ood_auroc_new_vs_seen": 0.5538815833333333,
+      "abstain_rate_seen": 0.0375,
+      "abstain_rate_new": 0.039,
+      "acc_all": 0.9315714285714286,
+      "acc_kept": 0.9302256532066508
+    },
+    "midjourney": {
+      "ood_auroc_new_vs_seen": 0.5015181666666666,
+      "abstain_rate_seen": 0.03233333333333333,
+      "abstain_rate_new": 0.028,
+      "acc_all": 0.925,
+      "acc_kept": 0.9243139569194453
+    },
+    "sdv5": {
+      "ood_auroc_new_vs_seen": 0.47660108333333334,
+      "abstain_rate_seen": 0.04033333333333333,
+      "abstain_rate_new": 0.047,
+      "acc_all": 0.9305714285714286,
+      "acc_kept": 0.9296677097302936
+    },
+    "vqdm": {
+      "ood_auroc_new_vs_seen": 0.5539413333333334,
+      "abstain_rate_seen": 0.035666666666666666,
+      "abstain_rate_new": 0.037,
+      "acc_all": 0.9291428571428572,
+      "acc_kept": 0.9282856719514002
+    },
+    "wukong": {
+      "ood_auroc_new_vs_seen": 0.5159784166666667,
+      "abstain_rate_seen": 0.033,
+      "abstain_rate_new": 0.041,
+      "acc_all": 0.9302857142857143,
+      "acc_kept": 0.9293003993492087
+    }
+  }
+}

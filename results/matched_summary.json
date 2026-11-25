@@ -1,0 +1,130 @@
+[
+ {
+  "features": "all",
+  "train": "baseline",
+  "test": "genimage-logo/jpeg50",
+  "recall": 0.071,
+  "specificity": 0.996,
+  "auroc": 0.803
+ },
+ {
+  "features": "all",
+  "train": "baseline",
+  "test": "genimage-logo/jpeg95",
+  "recall": 0.901,
+  "specificity": 0.962,
+  "auroc": 0.985
+ },
+ {
+  "features": "all",
+  "train": "baseline",
+  "test": "synthbuster/jpeg50",
+  "recall": 0.128,
+  "specificity": 0.996,
+  "auroc": null
+ },
+ {
+  "features": "all",
+  "train": "baseline",
+  "test": "synthbuster/jpeg95",
+  "recall": 0.932,
+  "specificity": 0.96,
+  "auroc": null
+ },
+ {
+  "features": "all",
+  "train": "matched",
+  "test": "genimage-logo/jpeg50",
+  "recall": 0.425,
+  "specificity": 0.961,
+  "auroc": 0.877
+ },
+ {
+  "features": "all",
+  "train": "matched",
+  "test": "genimage-logo/jpeg95",
+  "recall": 0.868,
+  "specificity": 0.95,
+  "auroc": 0.976
+ },
+ {
+  "features": "all",
+  "train": "matched",
+  "test": "synthbuster/jpeg50",
+  "recall": 0.534,
+  "specificity": 0.965,
+  "auroc": null
+ },
+ {
+  "features": "all",
+  "train": "matched",
+  "test": "synthbuster/jpeg95",
+  "recall": 0.87,
+  "specificity": 0.947,
+  "auroc": null
+ },
+ {
+  "features": "clip",
+  "train": "baseline",
+  "test": "genimage-logo/jpeg50",
+  "recall": 0.031,
+  "specificity": 0.997,
+  "auroc": 0.698
+ },
+ {
+  "features": "clip",
+  "train": "baseline",
+  "test": "genimage-logo/jpeg95",
+  "recall": 0.894,
+  "specificity": 0.954,
+  "auroc": 0.98
+ },
+ {
+  "features": "clip",
+  "train": "baseline",
+  "test": "synthbuster/jpeg50",
+  "recall": 0.041,
+  "specificity": 0.998,
+  "auroc": null
+ },
+ {
+  "features": "clip",
+  "train": "baseline",
+  "test": "synthbuster/jpeg95",
+  "recall": 0.901,
+  "specificity": 0.953,
+  "auroc": null
+ },
+ {
+  "features": "clip",
+  "train": "matched",
+  "test": "genimage-logo/jpeg50",
+  "recall": 0.395,
+  "specificity": 0.964,
+  "auroc": 0.868
+ },
+ {
+  "features": "clip",
+  "train": "matched",
+  "test": "genimage-logo/jpeg95",
+  "recall": 0.874,
+  "specificity": 0.944,
+  "auroc": 0.976
+ },
+ {
+  "features": "clip",
+  "train": "matched",
+  "test": "synthbuster/jpeg50",
+  "recall": 0.484,
+  "specificity": 0.976,
+  "auroc": null
+ },
+ {
+  "features": "clip",
+  "train": "matched",
+  "test": "synthbuster/jpeg95",
+  "recall": 0.898,
+  "specificity": 0.946,
+  "auroc": null
+ }
+]

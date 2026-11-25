@@ -1,0 +1,74 @@
+{
+ "('jpeg50', 'clip')": {
+  "nanobanana2_unverified": 0.01,
+  "sb_dalle2": 0.094,
+  "sb_dalle3": 0.07,
+  "sb_firefly": 0.056,
+  "sb_glide": 0.074,
+  "sb_midjourney-v5": 0.048,
+  "sb_stable-diffusion-1-3": 0.042,
+  "sb_stable-diffusion-1-4": 0.02,
+  "sb_stable-diffusion-2": 0.092,
+  "sb_stable-diffusion-xl": 0.09
+ },
+ "('jpeg50', 'clip+dino+spec')": {
+  "nanobanana2_unverified": 0.026,
+  "sb_dalle2": 0.172,
+  "sb_dalle3": 0.094,
+  "sb_firefly": 0.152,
+  "sb_glide": 0.22,
+  "sb_midjourney-v5": 0.08,
+  "sb_stable-diffusion-1-3": 0.074,
+  "sb_stable-diffusion-1-4": 0.064,
+  "sb_stable-diffusion-2": 0.176,
+  "sb_stable-diffusion-xl": 0.212
+ },
+ "('jpeg50', 'ours (deg-augmented)')": {
+  "nanobanana2_unverified": 0.562,
+  "sb_dalle2": 0.846,
+  "sb_dalle3": 0.806,
+  "sb_firefly": 0.906,
+  "sb_glide": 0.878,
+  "sb_midjourney-v5": 0.73,
+  "sb_stable-diffusion-1-3": 0.83,
+  "sb_stable-diffusion-1-4": 0.86,
+  "sb_stable-diffusion-2": 0.852,
+  "sb_stable-diffusion-xl": 0.87
+ },
+ "('jpeg95', 'clip')": {
+  "nanobanana2_unverified": 0.65,
+  "sb_dalle2": 0.926,
+  "sb_dalle3": 0.814,
+  "sb_firefly": 0.988,
+  "sb_glide": 0.982,
+  "sb_midjourney-v5": 0.852,
+  "sb_stable-diffusion-1-3": 0.974,
+  "sb_stable-diffusion-1-4": 0.964,
+  "sb_stable-diffusion-2": 0.938,
+  "sb_stable-diffusion-xl": 0.892
+ },
+ "('jpeg95', 'clip+dino+spec')": {
+  "nanobanana2_unverified": 0.612,
+  "sb_dalle2": 0.844,
+  "sb_dalle3": 0.792,
+  "sb_firefly": 0.992,
+  "sb_glide": 0.972,
+  "sb_midjourney-v5": 0.848,
+  "sb_stable-diffusion-1-3": 0.968,
+  "sb_stable-diffusion-1-4": 0.96,
+  "sb_stable-diffusion-2": 0.91,
+  "sb_stable-diffusion-xl": 0.87
+ },
+ "('jpeg95', 'ours (deg-augmented)')": {
+  "nanobanana2_unverified": 0.602,
+  "sb_dalle2": 0.854,
+  "sb_dalle3": 0.896,
+  "sb_firefly": 0.982,
+  "sb_glide": 0.912,
+  "sb_midjourney-v5": 0.776,
+  "sb_stable-diffusion-1-3": 0.922,
+  "sb_stable-diffusion-1-4": 0.936,
+  "sb_stable-diffusion-2": 0.908,
+  "sb_stable-diffusion-xl": 0.874
+ }
+}
